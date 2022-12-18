@@ -79,6 +79,6 @@ void get_rotr(stack_t **stack, unsigned int line_number);
 void get_pstr(stack_t **stack, unsigned int line_number);
 
 void get_free(stack_t *stack);
-int _isdigit(char *str);
+int is_digit(char *str);
 
 #endif /* MONTY_H */
